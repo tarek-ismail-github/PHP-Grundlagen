@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac5a9682-610d-4e86-8f4f-bd65639cf2fd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1hGjL7yJ5hqOv4MmIV47nhkKzkC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OOP_PHP/Objekte" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTTP Request" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Zitat_des_Tages_Projekt/index.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac5a9682-610d-4e86-8f4f-bd65639cf2fd" name="Default Changelist" comment="" />
+      <created>1599644263713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599644263713</updated>
+      <workItem from="1599644264813" duration="16401000" />
+      <workItem from="1599808246266" duration="13445000" />
+      <workItem from="1600069398067" duration="12887000" />
+      <workItem from="1600154097353" duration="7505000" />
+      <workItem from="1600240209390" duration="13711000" />
+      <workItem from="1600327345612" duration="16424000" />
+      <workItem from="1600675795112" duration="393000" />
+      <workItem from="1601449367985" duration="656000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="631" y="407" key="#Firefox_Settings" timestamp="1600335776777">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="631" y="407" key="#Firefox_Settings/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1600335776777" />
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600336387626">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1600336387626" />
+    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1600423248872">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1600423248872" />
+    <state x="634" y="228" key="NewPhpClassDialog" timestamp="1600246929848">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="634" y="228" key="NewPhpClassDialog/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1600246929848" />
+    <state x="674" y="428" key="NewPhpFileDialog" timestamp="1600250529442">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="674" y="428" key="NewPhpFileDialog/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1600250529442" />
+    <state x="328" y="114" key="SettingsEditor" timestamp="1600336225400">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="328" y="114" key="SettingsEditor/0.0.1680.1010/-1680.0.1680.1010@0.0.1680.1010" timestamp="1600336225400" />
+  </component>
+</project>

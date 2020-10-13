@@ -1,0 +1,144 @@
+body{
+    background-color: #3fb3e0;
+    font-family: Arial,Verdana;
+    padding: 5px;
+    line-height: 1.3;
+    color: #0c56ea;
+    font-size: 0.85em;
+    margin: auto;
+
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #49c5f5;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+li {
+    color: #0c56ea ;
+}
+
+li a {
+    display: block;
+    color: #0c56ea;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #cae7db;
+}
+.textcenter { text-align:center; }
+.imglogo{
+    widows: 100%;
+    max-width: 612px;
+}
+.formbreite { width:100%;max-width:477px; }
+.divcenter { margin:0 auto; }
+.inputbreite { float:left;width:100%;max-width:306px; }
+.labelbreite { float:left;width:146px;margin-right:20px; }
+.clearfix { clear:both; }
+
+.eintragtabelle { width:100%;max-width:612px;background-color: #7ec4f3; }
+.eintragkopf { background-color: #6aafd9;line-height:1.7;padding-left:10px;padding-top:5px;padding-bottom:5px; }
+.tabelle_kopf_textfarbe { color: #0c56ea
+}
+.tabellenkopf { color: #0c56ea;width:50%; float:right; }
+.tabelleninhalt {
+    background-color: #bfe9e4;
+    color: #d21414;
+    padding:10px;
+    overflow:hidden;
+    font-family:  Arial, Helvetica, sans-serif;
+font-size: 40px}
+.tabellenkopflink { color: #0c56ea
+}
+.pr10 { padding-right:10px; }
+.pl{
+    padding-left:2000px;
+}
+.fr { float:right; }
+.ml10 { margin-left:10px; }
+.clearfix { clear:both; }
+.standardbreite { width:100%;max-width:612px; }
+.zeigeeintraege { font-weight:bold;width:100%;max-width:602px;text-align:center; }
+.button1{
+    border-radius: 12px;
+    padding: 8px 18px;
+    background-color: #57b0dd; color: #3b65ba;
+}
+.eintragtabelle
+{
+    padding:0px;
+    margin:0px;
+
+    border-right-width:1px;
+    border-right-style:solid;
+    border-right-color: #0891e5;
+
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color: #0a9ffc;
+
+    border-top-width:2px;
+    border-top-style:solid;
+    border-top-color: #0b53e3;
+
+    border-left-width:2px;
+    border-left-style:solid;
+    border-left-color: #7dc2ef;
+}
+/* Das Formular zum Erstellen eines Eintrags */
+form
+{
+    padding:20px;
+    background: #7ec4f3;
+    background-color: #7ec4f3;
+    -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius:10px; /* Safari, Chrome */
+    -khtml-border-radius:10px; /* Konqueror */
+    border-radius:10px; /* CSS3 */
+
+    border-right-width:1px;
+    border-right-style:solid;
+    border-right-color: #7fc1ea;
+
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color: #70beef;
+
+    border-top-width:2px;
+    border-top-style:solid;
+    border-top-color: #7fc5f3;
+
+    border-left-width:2px;
+    border-left-style:solid;
+    border-left-color: #76bfef;
+
+    margin-top:10px;
+}
+
+/* visited link */
+
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+
+
+a.ex1:hover, a.ex1:active {
+    color: red;
+}
+
+/* Das Eingabefeld für den Text */
+
+

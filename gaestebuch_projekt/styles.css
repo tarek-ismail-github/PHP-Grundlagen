@@ -1,0 +1,63 @@
+body{
+    background-color: #bfb7b4;
+    font-family: Arial,Verdana;
+    padding: 5px;
+    line-height: 1.3;
+    color: aqua;
+    font-size: 0.85em;
+    margin: auto;
+
+}
+.textcenter { text-align:center; }
+.imglogo{
+    widows: 100%;
+    max-width: 612px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+    color:aqua ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #9d9694;
+}
+.active {
+    background-color: #4CAF50;
+}
+.formbreite { width:100%;max-width:477px; }
+.divcenter { margin:0 auto; }
+.inputbreite { float:left;width:100%;max-width:306px; }
+.labelbreite { float:left;width:146px;margin-right:20px; }
+.clearfix { clear:both; }
+
+.eintragtabelle { width:100%;max-width:612px;background-color:#CCD8E0; }
+.eintragkopf { background-color:#A7B4BC;line-height:1.7;padding-left:10px;padding-top:5px;padding-bottom:5px; }
+.tabelle_kopf_textfarbe { color: #000000
+}
+.tabellenkopf { color: #9d8888;width:50%; }
+.tabelleninhalt { background-color: #879296;color:#333333;padding:10px;overflow:hidden; }
+.tabellenkopflink { color:#DBE3E6}
+.pr10 { padding-right:10px; }
+.fr { float:right; }
+.ml10 { margin-left:10px; }
+.clearfix { clear:both; }
+.standardbreite { width:100%;max-width:612px; }
+.zeigeeintraege { font-weight:bold;width:100%;max-width:602px;text-align:center; }
+.button1{
+    border-radius: 12px;
+    padding: 8px 18px;
+    background-color: #d0c7c7; color: black;
+}

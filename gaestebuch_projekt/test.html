@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unser Beispiel-Gästebuch</title>
+    <link rel="stylesheet" type="text/css" href="https://www.guestbook-free.com/beispiele/layout4/layout4.css">
+    <link rel="stylesheet" type="text/css" href="https://www.guestbook-free.com/styles/beispiel4.css">
+    <meta name="robots" content="index,follow">
+    <script>
+        function smiley(nummer) {
+            var txtfeld = document.post.nachricht;
+            if (nummer == 1) { ausgabe = " :-)) "; }
+            if (nummer == 2) { ausgabe = " :-) "; }
+            if (nummer == 3) { ausgabe = " :-/ "; }
+            if (nummer == 4) { ausgabe = " :-( "; }
+            if (nummer == 5) { ausgabe = " :-* "; }
+            if (nummer == 6) { ausgabe = " 8-) "; }
+            if (nummer == 7) { ausgabe = " :-|| "; }
+            if (nummer == 8) { ausgabe = " :-| "; }
+            if (nummer == 9) { ausgabe = " :-O "; }
+            if (nummer == 10) { ausgabe = " ):-( "; }
+            if (nummer == 11) { ausgabe = " :-v "; }
+            if (nummer == 12) { ausgabe = " ;) "; }
+            if (nummer == 13) { ausgabe = " :-D "; }
+            if (nummer == 14) { ausgabe = " :-C "; }
+            if (nummer == 15) { ausgabe = " ;-) "; }
+            txtfeld.value  += ausgabe;
+            txtfeld.focus(); }
+    </script>
+</head>
+<body>
+
+<div class="textcenter mt10">
+    <img src="https://www.guestbook-free.com/beispiele/layout4/titel.png" alt="Unser Beispiel-Gästebuch" class="imglogo"><br>
+    <h2 class="titel">Unser Beispiel-Gästebuch</h2>
+</div>
+
+<div class="standardbreite divcenter">
+    <div class="formbreite infotexttable divcenter"><p class="total">Dieses Gästebuch wurde vollständig über den kostenlosen Gästebuchservice erstellt. <br />
+        <br />
+        Sie können dieses Layout als Standardlayout direkt nutzen oder nach eigenen Wünschen anpassen und so ändern, daß es exakt zum Design Ihrer Homepage passt.</p></div><br>
+    <div class="textcenter"><a href="https://www.guestbook-free.com" class="linkback2">Zurück zur Homepage</a>
+    </div><br>				<div class="formbreite divcenter">
+    <form action="https://www.guestbook-free.com/books3/beispiel4/" method="post" name="post">
+        <div class="labelbreite eingabefelder">
+            Name:*
+        </div>
+        <div class="inputbreite">
+            <input type="text" maxlength="40" name="name" required="required" value="" class="w100 inputfeld_name">
+        </div><div class="clearfix mb10"></div>
+        <div class="labelbreite eingabefelder">Email:</div><div class="inputbreite">	<input type="text" maxlength="255" name="email" value="" class="w100 inputfeld_email"></div><div class="clearfix mb10"></div><div class="labelbreite eingabefelder">Homepage:</div><div class="inputbreite">	<input type="text" maxlength="255" name="url" value="http://" class="w100 inputfeld_homepage"></div><div class="clearfix mb10"></div>    <div class="standardbreite">
+        <div class="labelbreite fl mr20 mt10">
+            <div class="eingabefelder">
+                Nachricht:*
+                <br><br>
+                <div class="smiley">
+                    <a href="javascript:smiley(1)"><img src="https://www.guestbook-free.com/smileys/1.gif" alt="*" class="sm16"></a>
+                    <a href="javascript:smiley(2)"><img src="https://www.guestbook-free.com/smileys/2.gif" alt="*" class="sm15"></a>
+                    <a href="javascript:smiley(3)"><img src="https://www.guestbook-free.com/smileys/3.gif" alt="*" class="sm16"></a>
+                    <a href="javascript:smiley(4)"><img src="https://www.guestbook-free.com/smileys/4.gif" alt="*" class="sm15"></a>
+                    <a href="javascript:smiley(5)"><img src="https://www.guestbook-free.com/smileys/5.gif" alt="*" class="sm16"></a>
+                    <a href="javascript:smiley(6)"><img src="https://www.guestbook-free.com/smileys/6.gif" alt="*" class="sm15"></a>
+                    <a href="javascript:smiley(7)"><img src="https://www.guestbook-free.com/smileys/7.gif" alt="*" class="sm15"></a>
+                    <a href="javascript:smiley(8)"><img src="https://www.guestbook-free.com/smileys/8.gif" alt="*" class="sm16"></a>
+                    <a href="javascript:smiley(9)"><img src="https://www.guestbook-free.com/smileys/9.gif" alt="*" class="sm15"></a>
+                    <a href="javascript:smiley(10)"><img src="https://www.guestbook-free.com/smileys/10.gif" alt="*" class="sm15"></a>
+                    <a href="javascript:smiley(11)"><img src="https://www.guestbook-free.com/smileys/11.gif" alt="*" class="sm16"></a>
+                    <a href="javascript:smiley(12)"><img src="https://www.guestbook-free.com/smileys/12.gif" alt="*" class="sm15"></a>
+                    <a href="javascript:smiley(13)"><img src="https://www.guestbook-free.com/smileys/13.gif" alt="*" class="sm15"></a>
+                    <a href="javascript:smiley(14)"><img src="https://www.guestbook-free.com/smileys/14.gif" alt="*" class="sm16"></a>
+                    <a href="javascript:smiley(15)"><img src="https://www.guestbook-free.com/smileys/15.gif" alt="*" class="sm16"></a>
+                </div>
+            </div>
+        </div>
+        <div class="inputbreite eingabefelder">
+            <textarea name="nachricht" rows="5" cols="34" required="required" class="textarea_nachricht"></textarea>
+            <br>
+            <input type="hidden" name="execute" value="yes">
+            <input type="hidden" name="language" value="">
+
+
+
+            <div class="textcenter mt20">
+                <input type="submit" name="send" value="Vorschau" class="inputfeld_vorschaubutton">
+                <input type="submit" name="send" value="Eintrag speichern" class="inputfeld_submitbutton">
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    </form>
+</div>
+    <br>
+    <br>
+    <div class="ml10 standardbreite zeigeeintraege"><p class="total">
+        Zeige die Eintr&auml;ge 1-8 von insgesamt 8 Eintr&auml;gen im G&auml;stebuch: </p></div><br><div class="eintragtabelle">
+    <div class="pr10 eintragkopf">
+        <div class="fr tabellenkopf">Eintrag vom 29.11.2017 um 11:17 Uhr</div>
+        <div class="tabellenkopf">Name:  <span class="tabellenkopflink">I bims</span></div>
+        <div class="clearfix"></div></div>
+    <div class="tabelleninhalt">
+    </div><br>
+
+    <br><br><br>
+    <div class="eintragtabelle">
+    <div class="pr10 eintragkopf">
+        <div class="fr tabellenkopf">Eintrag vom 23.03.2012 um 04:40 Uhr</div>
+        <div class="tabellenkopf">Name:  <span class="tabellenkopflink">Testeintrag</span></div>
+        <div class="clearfix"></div>
+        <div class="fr tabellenkopf">Email: <span class="tabellenkopflink"><a href="" target="_blank" class="tabellenkopflink"></a></span>
+    </div>
+        <div class="tabellenkopf">URL: <span class="tabellenkopflink"><a href="http://www.guestbook-free.com" target="_blank" class="tabellenkopflink" rel="nofollow"">http://www.guestbook-free.com</a></span>
+    </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="tabelleninhalt">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.<br />
+    <br />
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.   <img src="https://www.guestbook-free.com/smileys/13.gif" width="15" height="15"  alt="*"> <br><br><hr><div class="kommentar"><b>Kommentar:</b> &#160;Das ist ein kleiner Testkommentar zu diesem Eintrag.</div>	</div>
+</div>
+
+</div>
+</div>
+<br><br>
+</body>
+</html>

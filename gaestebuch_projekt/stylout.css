@@ -1,0 +1,98 @@
+.eintragtabelle
+{
+    padding:0px;
+    margin:0px;
+
+    border-right-width:1px;
+    border-right-style:solid;
+    border-right-color:#4D5D67;
+
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:#4D5D67;
+
+    border-top-width:2px;
+    border-top-style:solid;
+    border-top-color:#B2BEC6;
+
+    border-left-width:2px;
+    border-left-style:solid;
+    border-left-color:#B2BEC6;
+}
+/* Das Formular zum Erstellen eines Eintrags */
+form
+{
+    padding:20px;
+    background-color: #646a6e;
+    -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius:10px; /* Safari, Chrome */
+    -khtml-border-radius:10px; /* Konqueror */
+    border-radius:10px; /* CSS3 */
+
+    border-right-width:1px;
+    border-right-style:solid;
+    border-right-color:#4D5D67;
+
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:#4D5D67;
+
+    border-top-width:2px;
+    border-top-style:solid;
+    border-top-color:#B2BEC6;
+
+    border-left-width:2px;
+    border-left-style:solid;
+    border-left-color:#B2BEC6;
+
+    margin-top:10px;
+}
+/* Das Eingabefeld für den Text */
+
+.textarea_nachricht
+{
+    padding: 5px;
+
+    font-weight:bold;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    border:0;
+    margin-left:4px;
+    color: black;
+    width : 250px
+}
+
+/* Tabellenkopf (Eintrag Titel)   */
+.tabellenkopf
+{
+
+    color : #333333;
+    text-decoration: none;
+}
+
+/* *********************************************************** */
+
+/* Tabellenkopf Link    */
+.tabellenkopflink,.tabellenkopflink:visited,.tabellenkopflink:active
+{
+
+    color : #333333;
+}
+
+/* *********************************************************** */
+
+/* Tabellenkopf Link wenn Mauszeiger über Link   */
+.tabellenkopflink:hover
+{
+
+    color : #bd0000;
+}
+
+/* *********************************************************** */
+
+/* Tabelleninhalt (Eintragstext)    */
+.tabelleninhalt
+{
+
+    text-decoration: none;
+}
